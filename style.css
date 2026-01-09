@@ -45,7 +45,7 @@ nav .nav-link li a{
 .nav-button .btn{
     background-color: green;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     border: none;
     padding: 5px;
     border-radius: 5px;   
@@ -54,7 +54,7 @@ nav .nav-link li a{
     background-color: chartreuse;
     color: black;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 14px;
 }
 /*navbar ends here*/
 
@@ -76,7 +76,7 @@ nav .nav-link li a{
 
 }
 .banner-info .start-info{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500px;
     line-height: 20px;
     background-color: white;
@@ -113,12 +113,13 @@ nav .nav-link li a{
     padding: 5px;
     border-radius: 5px;
     color: white;
+    font-size: 12px;
 }
 .info-button .info-btn-1 .btn:hover{
     background-color: lawngreen;
     color: black;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
 }
 .info-button .info-btn-2 .btn{
     border: 1px solid white;
@@ -126,12 +127,13 @@ nav .nav-link li a{
     color: white;
     padding: 5px;
     border-radius: 5px;
+    font-size: 12px;
 }
 .info-button .info-btn-2 .btn:hover{
     background-color: lawngreen;
     color: black;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     border: none;
 }
 /*banner section ends here*/
@@ -165,6 +167,7 @@ nav .nav-link li a{
     font-size: 12px;
     margin: 10px;
     line-height: 10px;
+    color: #757575;
 }
 .card-file{
     display: flex;
@@ -210,12 +213,12 @@ nav .nav-link li a{
     width: 330px;
     height: 330px;
 }
-.brain-section-design .brain-details .head{
+.brain-section-design .brain-details .head p{
     text-transform: uppercase;
     font-size: 15px;
     color: green;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 20px; 
 }
 .brain-section-design .brain-details h3{
     font-size: 25px;
@@ -228,6 +231,7 @@ nav .nav-link li a{
     line-height: 17px;
     padding-bottom: 15px;
     width: 400px;
+    color: #757575;
 }
 .brain-section-design .brain-details .list ul{
     list-style: none;
@@ -242,4 +246,47 @@ nav .nav-link li a{
     width: 13px;
 }
 /*brain section ends here*/ 
+
+/*early access section starts here*/
+
+.early-access-container{
+    width: 80%;
+    max-width: 1600px;
+    background-color: floralwhite;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+}
+.early-access-container .early-access-head{
+    padding-top: 50px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+}
+.early-access-container .early-access-pera{
+    font-size: 10px;
+    color: #757575;
+    padding: 10px;
+    line-height: 15px;
+}
+.early-access-button .btn{
+    background-color: green;
+    color: white;
+    font-size: 10px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;   
+}
+.early-access-button .btn:hover{
+    background-color: chartreuse;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.early-access-button img{
+    width: 15px;
+    height: 9px;
+}
+/*early access section ends here*/
 
