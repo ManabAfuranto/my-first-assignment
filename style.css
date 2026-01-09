@@ -6,7 +6,7 @@
 .font{
     font-family: "Open Sans", sans-serif;
 }
-/*nav starts here*/
+/*navbar starts here*/
 nav{
     width: 100%;
     max-width: 1600px;
@@ -56,9 +56,9 @@ nav .nav-link li a{
     cursor: pointer;
     font-size: 17px;
 }
-/*nav ends here*/
+/*navbar ends here*/
 
-/*banner starts here*/
+/*banner section starts here*/
 
 #banner{
     background-image: url(./images/assets/hero-bg.png);
@@ -134,11 +134,11 @@ nav .nav-link li a{
     font-size: 16px;
     border: none;
 }
-/*banner ends here*/
+/*banner section ends here*/
 
-/*card deta starts here*/
+/*card notes starts here*/
 
-#card-data{
+#card-notes{
     width: 90%;
     max-width: 1600px;
     height: 350px;
@@ -150,10 +150,10 @@ nav .nav-link li a{
     padding: 30px; 
     margin: 0 auto;   
 }
-#card-data .card-heading{
+#card-notes .card-heading{
     text-align: center;
 }
-#card-data .card-heading h2{
+#card-notes .card-heading h2{
     font-size: 30px;
     text-transform: capitalize;
     font-style: bold;
@@ -161,7 +161,7 @@ nav .nav-link li a{
     line-height: 30px;
     margin-top: 25px;
 }
-#card-data .card-heading p{
+#card-notes .card-heading p{
     font-size: 12px;
     margin: 10px;
     line-height: 10px;
@@ -190,5 +190,56 @@ nav .nav-link li a{
     margin-bottom: 10px;
 }
 
-/*card deta ends here*/
+/*card notes ends here*/
+
+
+/*brain section starts here*/ 
+
+#brain-section .brain-section-design{
+    width: 90%;
+    max-width: 1600px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    align-items: center;
+    padding: 70px;
+    margin: 0 auto;
+}
+.brain-section-design .brain-image img{
+    width: 330px;
+    height: 330px;
+}
+.brain-section-design .brain-details .head{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: green;
+    font-weight: 500;
+    line-height: 20px;
+}
+.brain-section-design .brain-details h3{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 700px;
+    padding-bottom: 15px;
+}
+.brain-section-design .brain-details p {
+    font-size: 11px;
+    line-height: 17px;
+    padding-bottom: 15px;
+    width: 400px;
+}
+.brain-section-design .brain-details .list ul{
+    list-style: none;
+}
+.brain-section-design .brain-details .list ul li{
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.brain-details .list ul li img{
+    height: 11px;
+    width: 13px;
+}
+/*brain section ends here*/ 
 
