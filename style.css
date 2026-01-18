@@ -292,34 +292,40 @@ nav .nav-link li a{
 
 /*footer section starts here*/
 
+#footer-section{
+    background-color: midnightblue;
+    max-width: 1600px;
+    margin-top: 50px;
+}
 .footer-container{
-    background-color: var(--Style, rgba(0, 25, 49, 1));
-    width: 100%;
-    height: 200px;
+    width: 80%;
+    height: 180px;
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
     align-items: center;
-    justify-content: space-around;  
 }
-
-.footer-container .footer-image img{
-    width: 100px;
-    height: 50px;
-    margin-right: 300px;
-}
-
-.footer-container .Social-link{
-    color: white;
-}
-
+.Social-media{
+    color: white;   
+} 
 .link-list{
     display: flex;
-    flex-direction: row;  
-    color: white; 
+    flex-direction: row;
+    gap: 15px;
 }
 .link-list li{
     list-style: none;
-    padding: 5px;
 }
 
+.copy-right{
+    width: 80%;
+    color: white;
+    margin: 0 auto;
+    text-align: center;   
+}
+.copy-right .text{
+    padding: 20px;
+    font-size: 12px;
+}
 /*footer section ends here*/
 
